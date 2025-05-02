@@ -31,10 +31,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= BASE_URL ?>">Beranda</a>
+                        <a class="nav-link" href="<?= BASE_URL ?>/index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= BASE_URL ?>/vehicles.php">Kendaraan</a>
+                        <a class="nav-link" href="<?= BASE_URL ?>/vehicle_detail.php">Kendaraan</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= BASE_URL ?>/contact.php">Kontak</a>
@@ -43,14 +43,14 @@
                 <ul class="navbar-nav">
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= BASE_URL ?>/admin/">Dashboard</a>
+                            <a class="nav-link" href="<?= BASE_URL ?>/admin/index.php">Dashboard</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?= BASE_URL ?>/admin/logout.php">Logout</a>
                         </li>
                     <?php else: ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= BASE_URL ?>/admin/login.php">Login</a>
+                            <a class="nav-link" href="<?= BASE_URL ?>/admin/login.php">Login Admin</a>
                         </li>
                     <?php endif; ?>
                 </ul>
