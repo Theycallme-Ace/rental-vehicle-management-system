@@ -93,6 +93,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             color: #007bff;
             margin-bottom: 1rem;
         }
+        .forgot-password {
+            display: block;
+            margin-top: 1rem;
+            text-align: right;
+        }
     </style>
 </head>
 <body>
@@ -152,6 +157,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             Silakan masukkan password
                         </div>
                     </div>
+
+                    <a href="forgot_password.php" class="forgot-password">Lupa Password?</a>
 
                     <div class="d-grid">
                         <button type="submit" class="btn btn-primary">
