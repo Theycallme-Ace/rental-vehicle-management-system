@@ -1,7 +1,3 @@
--- Create database
-CREATE DATABASE IF NOT EXISTS rental_bis;
-USE rental_bis;
-
 -- Create users table
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
