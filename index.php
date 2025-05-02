@@ -72,9 +72,9 @@ include 'includes/header.php';
                             <p class="card-text">
                                 <?= substr($vehicle['facilities'], 0, 100) . '...' ?>
                             </p>
-                            <a href="vehicle_detail.php?id=<?= $vehicle['id'] ?>" 
+                            <a href="admin/login.php" 
                                class="btn btn-primary">
-                                Lihat Detail
+                                Login Admin
                             </a>
                         </div>
                     </div>
