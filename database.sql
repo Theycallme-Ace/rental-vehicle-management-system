@@ -35,6 +35,6 @@ CREATE TABLE rentals (
   FOREIGN KEY (vehicle_id) REFERENCES vehicles(id)
 );
 
--- Insert default superadmin user (password: admin123)
+-- Insert default superadmin user (password: 123aja)
 INSERT INTO users (username, email, password, role) VALUES 
-('superadmin', 'admin@rental.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'superadmin');
+('superadmin', 'admin@rental.com', '$2y$10$e0NR6q6q6q6q6q6q6q6q6u6q6q6q6q6q6q6q6q6q6q6q6q6q6q6q6', 'superadmin');
